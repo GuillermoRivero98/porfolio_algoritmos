@@ -1,0 +1,5 @@
+ ¿Cuán larga es las string devuelta por la siguiente expresión? ¿cuál es la string?
+ "Was it a car or a cat I saw?".substring(9, 12)
+
+a) tiene logitud 3
+b)  devuelve "car" (10,11,12 de la cadena)

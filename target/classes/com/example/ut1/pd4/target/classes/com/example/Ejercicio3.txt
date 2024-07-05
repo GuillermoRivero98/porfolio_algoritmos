@@ -1,0 +1,16 @@
+El siguiente código crea un array y una string. ¿Cuántas referencias a estos objetos
+ existen luego de que el código se ha ejecutado? ¿Es alguno de los objetos candidato a
+ ser eliminado por el garbage collector?
+ String[] students = new String[10];
+ String studentName = "Peter Parker";
+ students[0] = studentName;
+ studentName = null;
+ ...
+
+ Existen 2 referencias a objetos que son students y studentName
+
+ 2) Cómo hace un programa para destruir  un objeto que ha creado?
+ No se pueden destruir objetos
+ Se pueden saignar como null cuando ya no se necesiten
+
+ 3) en contenedorDeNumeros.java

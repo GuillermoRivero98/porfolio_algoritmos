@@ -1,0 +1,7 @@
+Descripción mediante lenguaje natural de la nueva funcionalidad
+
+La función palabrasComunes recibe dos vectores de palabras (arrays de Strings) como parámetros y 
+devuelve otro vector (array de Strings) que contiene solo las palabras que se encuentran en ambos 
+vectores de entrada. La función recorre ambos arrays, verifica las palabras que se repiten en ambos, 
+y las almacena en un conjunto para eliminar duplicados. Finalmente, convierte el conjunto en un 
+array y lo devuelve.

@@ -1,0 +1,11 @@
+Cálculo de memoria consumida por un objeto de la clase Marcapasos:
+
+- short (presionSanguinea): 2 bytes
+- byte (frecuenciaCardiaca): 1 byte
+- short (nivelAzucarSangre): 2 bytes
+- long (maxFuerzaExpuesto): 8 bytes
+- float (minTiempoLatidos): 4 bytes
+- double (bateriaRestante): 8 bytes
+- String (codigoFabricante, 8 caracteres): 16 bytes 
+
+Total: 2 + 1 + 2 + 8 + 4 + 8 + 16 = 41 bytes 

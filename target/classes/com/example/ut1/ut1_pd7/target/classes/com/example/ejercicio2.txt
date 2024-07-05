@@ -1,0 +1,29 @@
+ String s1 = "Hola"; 
+String s2 = "Hola"; 
+if ( s1 == s2 ) { 
+System.out.println( "True" ); 
+} else { 
+System.out.println( "False" ); 
+}
+ String s1 = new String("Hola"); 
+String s2 = "Hola"; 
+if ( s1 == s2 ) { 
+System.out.println( "True" ); 
+} else { 
+System.out.println( "False" ); 
+}
+ ● ¿Qué sentencia se ejecuta como resultado del If en cada caso y por qué? Busca en internet
+ referencias que te permitan explicar las respuestas a las preguntas anteriores. Asegúrate que
+ las mismas sean autoritativas y cítalas adecuadamente en tu respuesta
+
+ 1) en el 1er fragmento de codigo:
+se evalua como verdad, s1 y s2 apuntan al mismo lugar de memoria
+
+2)se evalua como False, s1 y s2 apuntan a lugares diferentes de memoria
+
+Propone una versión correcta del código del Ejercicio #1.
+
+String s = "1";
+while (!s.equals("1000")) {
+    s += "0";
+}

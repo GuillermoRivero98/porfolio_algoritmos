@@ -1,0 +1,16 @@
+EJERCICIO #1
+ Observa el siguiente código:
+ String s = "1";
+ while (s != "1000") {
+ s += "0";
+ }
+ El mismo representa un bucle infinito ya que la comparación con el operador == entre el objeto s y el
+ literal “1000” jamás devuelve True.
+
+ ● ¿Por qué esto es así? ¿Qué diferencia representa con otros lenguajes como C#?
+
+En Java, el operador == compara las referencias de los objetos cuando se usan strings. 
+Por lo tanto, el bucle while con != siempre será verdad porque s y "1000" son objetos diferentes, 
+es decir, no apuntan al mismo lugar en la memoria. En lenguajes como C#, el operador == se puede sobrecargar 
+para comparar el contenido de los objetos, por lo que puede comportarse de manera diferente.
+ 

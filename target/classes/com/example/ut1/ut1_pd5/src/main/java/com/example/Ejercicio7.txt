@@ -1,0 +1,36 @@
+StringBuilder:
+similiar a string pero puede ser modificada
+son tratados como arreglos de logitud variable
+la longitud y contenido puede ser modificada pro medio de ciertos metodos
+
+StringBuilder(): Crea un StringBuilder vacío con una capacidad inicial de 16.
+
+StringBuilder(CharSequence cs): Construye un StringBuilder que contiene 
+los mismos caracteres que la secuencia de caracteres especificada, más 16 elementos
+vacíos adicionales al final.
+
+StringBuilder(int initCapacity): Crea un StringBuilder vacío con la capacidad inicial especificada.
+
+StringBuilder(String s): Crea un StringBuilder cuyo valor está inicializado por la
+cadena especificada, más 16 elementos vacíos adicionales al final.
+
+setLength(int newLength): Establece la longitud de la secuencia de caracteres
+obs: si el nuevo largo es menor al antiguo los ultimos valores de la secuencia son truncados
+
+ensureCapacity(int minCapacity): Asegura que la capacidad sea al menos igual al mínimo especificado.
+
+append(...): Agrega el argumento al StringBuilder. El dato se convierte a una cadena antes
+de la operación de agregación.
+
+insert(int offset, ...): Inserta el segundo argumento en el StringBuilder. El primer argumento 
+entero indica el índice antes del cual se debe insertar el dato.
+El dato se convierte a una cadena antes de la operación de inserción.
+
+delete(int start, int end): Elimina la subsecuencia desde start hasta
+end - 1 en la secuencia de caracteres del StringBuilder.
+
+deleteCharAt(int index): 
+Elimina el carácter ubicado en el índice especificado 
+en la secuencia de caracteres del StringBuilder.
+
+reverse(): Invierte la secuencia de caracteres en el StringBuilder

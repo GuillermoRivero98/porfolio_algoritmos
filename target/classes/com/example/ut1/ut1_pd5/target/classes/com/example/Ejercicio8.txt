@@ -1,0 +1,5 @@
+ ¿Cuál es la capacidad inicial del siguiente stringbuilder?
+ StringBuilder sb = new StringBuilder("Able was I ere I saw
+ Elba.")
+
+la capacidad seria de 16(logitud de la cadena dada)+ 28(longitud de la cadena)=44

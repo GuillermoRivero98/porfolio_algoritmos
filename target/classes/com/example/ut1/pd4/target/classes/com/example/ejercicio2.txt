@@ -1,0 +1,14 @@
+ Indica qué es lo que está mal en el siguiente programa:
+ public class SomethingIsWrong {
+ public static void main(String[] args) {
+ Rectangle myRect;
+ myRect.width = 40;
+ myRect.height = 50;
+ System.out.println("myRect's area is " + myRect.area());
+ }
+ }
+
+ main usa myRect que no esta inicializado
+myRect no se crea intancia de la clase Rectangle
+
+arreglado en main.java

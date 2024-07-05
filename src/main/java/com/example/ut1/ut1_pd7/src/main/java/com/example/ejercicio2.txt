@@ -1,0 +1,30 @@
+EJERCICIO #2
+Fragmento 1:
+String s1 = "Hola";
+String s2 = "Hola";
+if (s1 == s2) {
+    System.out.println("True");
+} else {
+    System.out.println("False");
+}
+
+Fragmento 2:
+String s1 = new String("Hola");
+String s2 = "Hola";
+if (s1 == s2) {
+    System.out.println("True");
+} else {
+    System.out.println("False");
+}
+
+¿Qué sentencia se ejecuta como resultado del If en cada caso y por qué?
+
+1) En el primer fragmento de código:
+   Se evalúa como `true` porque `s1` y `s2` apuntan al mismo lugar en la memoria del pool de strings.
+   
+2) En el segundo fragmento de código:
+   Se evalúa como `false` porque `s1` y `s2` apuntan a diferentes ubicaciones en la memoria.
+
+Referencias:
+- Oracle Java Documentation on String Pool: https://docs.oracle.com/javase/8/docs/api/java/lang/String.html#intern--
+- Stack Overflow discussion on string comparison: https://stackoverflow.com/questions/513832/how-do-i-compare-strings-in-java

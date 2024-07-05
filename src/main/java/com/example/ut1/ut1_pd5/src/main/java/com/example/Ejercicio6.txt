@@ -1,0 +1,28 @@
+substring: Este método se utiliza para extraer una parte de una cadena. Tiene dos variantes:
+1.substring(int beginIndex): Devuelve una nueva cadena que es una subcadena de la cadena original,
+comenzando desde beginIndex hasta el final de la cadena original.
+2.substring(int beginIndex, int endIndex): Devuelve una nueva cadena que es una subcadena 
+de la cadena original, comenzando desde beginIndex hasta endIndex - 1.
+
+
+split: Este método divide una cadena en subcadenas utilizando un delimitador específico.
+1.split(String regex): Divide la cadena en subcadenas usando la expresión regular proporcionada como delimitador.
+2.split(String regex, int limit): Divide la cadena en subcadenas usando la expresión regular proporcionada
+ como delimitador, con un límite en el número de divisiones.
+
+
+subSequence: Este método devuelve una secuencia de caracteres (una subsecuencia) de la cadena original.
+
+trim: Este método devuelve una copia de la cadena original con los espacios en blanco eliminados al inicio y al final.
+
+toLowerCase y toUpperCase: Estos métodos devuelven una copia de la cadena original en minúsculas o mayúsculas, respectivamente.
+
+indexOf y lastIndexOf: Estos métodos devuelven la posición de la primera (o última)
+ ocurrencia de un carácter o subcadena dentro de la cadena.
+
+
+ contains: Este método devuelve true si la cadena contiene una secuencia de caracteres específica.
+
+ replace: Este método reemplaza todas las ocurrencias de un carácter o subcadena con otra cadena.
+
+replaceAll y replaceFirst: Estos métodos reemplazan todas las ocurrencias (o la primera ocurrencia) de una expresión regular con otra cadena.

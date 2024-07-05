@@ -1,0 +1,24 @@
+Dado el siguiente código:
+ public class ToStringDemo {
+     
+    public static void main(String[] args) {
+        double d = 888.51;
+        String s = Double.toString(d);
+         
+        int dot = s.indexOf('.');
+         
+        System.out.println(dot + " digits " +  
+            "before decimal point.");
+        System.out.println( (s.length() - dot - 1) +
+            " digits after decimal point.");
+    }
+ }
+ 1) Indicar cuál es la salida obtenida al ejecutarlo.
+3 digits before decimal point.
+2 digits after decimal point.
+
+ 2) Indicar por qué se imprime cada uno de los datos y la razón de su forma
+
+1. la primer linea  imprime la cantidad de digitos antesl del punto decimal
+2. la seguda imprime la cantidad de digitos despues del punto decimal
+ 
