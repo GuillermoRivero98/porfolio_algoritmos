@@ -1,0 +1,7 @@
+en esta unidad, me enfoqué en algoritmos y estructuras de datos relacionados con grafos avanzados. 
+estudié la teoría de grafos más a fondo, incluyendo conceptos como grafos dirigidos y no dirigidos, 
+y representaciones de grafos mediante listas de adyacencia y matrices de adyacencia. 
+imprelente algoritmos complejos como el algoritmo de floyd-warshall para encontrar caminos más 
+cortos entre todos los pares de nodos y el algoritmo de prim y kruskal para encontrar árboles de expansión mínima. 
+también exploré la detección de ciclos en grafos dirigidos y no dirigidos, y trabajé en aplicaciones 
+prácticas de estos algoritmos en java

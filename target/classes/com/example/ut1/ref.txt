@@ -1,0 +1,22 @@
+REFLEXIÓN para fin de Unidad Temática
+A lo largo de esta primera unidad temática empecé a entender y relacionar varias cosas 
+para poder mejorar como programador y como alumno en general. Para empezar el tema de el 
+paso de C# a Java y sus similitudes como la estructura de los archivos. Ver los diferentes 
+tipos de archivos que posee Java y como utilizarlos, aunque sea a un nivel básico por el momento.
+Por otro lado, me di cuenta de que al volver de las vacaciones que había perdido practica a la 
+hora de programar y el tener que ver nuevamente seudocódigo y el tener que ver como se estructuran 
+los métodos en Java y dentro de estos ver como se utiliza) por ejemplo un “if” o un “for”).  
+Gracias a mis compañeros en esta unidad, pude recordar la importancia de escribir un código limpio y que 
+pude reutilizar para futuros problemas.
+Algo que si vi muy presente en esta unidad es que mi velocidad de estudio y entendimiento de la materia 
+en un poco más lento de lo que se recomienda y por eso tuve que adaptar mis tiempos entre las otras asignaturas 
+y mi trabajo.
+Me doy cuenta de que para entender como programar necesito leer y ver algún video que este recomendado por
+los profesores, pero, sobre todo necesito hacer ejercicios, ese “bajar a tierra” me parece fundamental. 
+Este mismo punto se vio reflejado en el primer “iRat” porque falle en las preguntas relacionadas a partes de 
+código y como utilizar ciertas herramientas en Java.
+Viendo mis ejercicios en grupo y los que estuve realizando de la unidad veo cierta evolución a la hora de hacer 
+códigos más limpios, en el sentido de reutilizables, y veo la necesidad de documentar los códigos para trabajos posteriores.
+Viendo mis resultados hasta el momento, hubiera tratado de sacar más tiempo para hacer ejercicios y no tanto en 
+resumir y hacer esquemas del teórico. 
+
